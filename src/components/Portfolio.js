@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Navbar from "./Navbar";
+import Projects from './pages/Projects'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("/");
@@ -13,6 +14,10 @@ export default function PortfolioContainer() {
     }
     if (currentPage === "About") {
       return <About />;
+    }
+    if (currentPage === "Projects"){
+      return < Projects />;
+
     }
     return <Contact />;
   };
