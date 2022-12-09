@@ -4,15 +4,12 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Who am I?</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Originally earning a BA in Marketing from <a src= "https://www.marshall.edu/">Marshall University</a> I have always had a passion for showing off 
+        cool products and ideas.  
       </p>
+      <p>Earning my Certification in Full-Stack-Development from The Ohio State University. I have added to this passion, not only marketing great ideas, but now helping to create them!</p>
     </div>
   );
 }
