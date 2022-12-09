@@ -1,18 +1,7 @@
 import React from 'react'
-import Navbar from './components/Navbar';
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Portfolio from './components/Portfolio'
 import './App.css';
 
-
-function App() {
-  return (
-    <div>
-    <Navbar />
-    <Header />
-    <Footer />
-    </div>
-  );
-}
+const App = () => <Portfolio />
 
 export default App;
